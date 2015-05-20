@@ -1,0 +1,70 @@
+install python extension packages on windows
+
+(preface: try to use python on Linux, since it is sometimes complicated to install python extension packages on windows)
+
+e.g. import psycopg2
+
+1)download psycopy2
+
+http://initd.org/pub/software/psycopg/
+
+unzip psycopg-latest.tar.gz  (e.g. Desktop)
+
+2) cmd 
+
+
+>cd Desktop
+
+>dir
+
+>cd psycopy2-2.6(e.g.)
+
+>setup.py install
+
+(1)error:pg_config executable not found
+
+solution:add (route of postgresql bin (e.g.C:\Program Files (x86)\PostgreSQL\9.2\bin)) to environment variables path
+;C:\Program Files (x86)\PostgreSQL\9.2\bin
+
+restart cmd
+
+>setup.py install
+
+(2)error:unable to find vcvarsall.bat
+
+solution: install mingw(mingw32) gcc
+http://www.mingw.org/
+
+add (route of mingw bin (e.g.C:\mingw\bin) to environment variables path
+;C:\mingw\bin
+
+create C:/Python27/Lib/distutils/distutils.cfg, and then writing
+
+(3)error: problem of '-mno-cygwin'
+
+solution:delete all the characters like '-mno-cygwin' in C:\Python27\Lib\distutils in cygwinccompiler.py
+
+[build]
+compiler = mingw32
+ 
+[build_ext]
+compiler = mingw32
+
+or setup.py install build --compiler=mingw32
+
+note: do not use MinGW-w64 (it may have incompatible problem)
+
+restart cmd
+
+>setup.py install
+
+(4)error:can not identify libpq.dll
+
+solution: 32bit mingw do not support 64bit postgresql
+reinstall 32 bit postgresql (pay attention on the route in path)
+
+
+note: gcc -v test the configuration of mingw32 gcc
+
+
+windows using mingw to extend python (with C/C++)
