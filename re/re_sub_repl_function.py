@@ -18,6 +18,8 @@ def pythonReSubDemo():
 
     #replacedStr = re.sub("\d+", _add111, inputStr)
     replacedStr = re.sub(r'(\d+)', _add111, inputStr)
+#   if  "hello 123 world 456 I am 789"   
+#   replacedStr = re.sub(r'(\d+)', _add111, inputStr, 2) #hello 234 world 567 I am 789, which only deals with first 2 matched pattern    
 #     print re.match(r'(\d+)', inputStr) #none (match only work for the beginning of text)
 #     print re.search(r'(\d+)', inputStr).group() #123
 #     print re.search(r'(\d+)$', inputStr).group() #456
