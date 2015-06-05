@@ -1,0 +1,9 @@
+[import time]
+
+Dear [name],
+
+I would like to learn how to program. I hear you use the [language] language a lot --
+
+And, by the way, is [email] your correct email address?
+
+thanks, [time.asctime()]
