@@ -29,8 +29,7 @@ def pythonReSubDemo():
 if __name__=="__main__":
     pythonReSubDemo()
     
-    
-    
+ 
 # inputStr = "hello crifan, nihao abdgg";
 # replacedStr = re.sub(r"hello (\w+), nihao", "\g<1>", inputStr); #\g<1> group 1
 # print "replacedStr=",replacedStr; #crifan  
