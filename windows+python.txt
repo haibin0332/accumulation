@@ -84,7 +84,7 @@ solution: add path (e.g. C:\Python27) to environment variables path (;C:\Python2
 >python get-pip.py (install setuptools for you)
 >python -m pip install -U pip (upgrade pip)
 
-option 1
+
 2 obtain NumPy & SciPy libraries
 http://www.scipy.org/scipylib/download.html
 
