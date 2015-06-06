@@ -96,3 +96,5 @@ error no lapack/blas found
 solution: directly install scipy-0.15.1-win32-superpack-python2.7.exe
 
 import numpy, scipy no error
+
+pip install -U scikit-learn
