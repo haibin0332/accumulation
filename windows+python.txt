@@ -68,3 +68,31 @@ note: gcc -v test the configuration of mingw32 gcc
 
 
 windows using mingw to extend python (with C/C++)
+
+
+#############################################################################
+
+e.g. import scipy, numpy
+
+http://scikit-learn.org/dev/install.html#install-by-distribution
+1 pip download
+http://pip.readthedocs.org/en/latest/installing.html
+
+error: "python is not recognized as an internal or external command"
+solution: add path (e.g. C:\Python27) to environment variables path (;C:\Python27)
+>cd Desktop
+>python get-pip.py (install setuptools for you)
+>python -m pip install -U pip (upgrade pip)
+
+option 1
+2 obtain NumPy & SciPy libraries
+http://www.scipy.org/scipylib/download.html
+
+http://sourceforge.net/projects/numpy/files/NumPy/1.9.2/(latest version Numpy)
+http://sourceforge.net/projects/scipy/files/scipy/0.16.0b2/ (latest version Scipy)
+
+3 install python extension packages on windows (mingw)
+error no lapack/blas found
+solution: directly install scipy-0.15.1-win32-superpack-python2.7.exe
+
+import numpy, scipy no error
