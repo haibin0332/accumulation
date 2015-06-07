@@ -29,8 +29,21 @@ def pythonReSubDemo():
 if __name__=="__main__":
     pythonReSubDemo()
     
- 
-# inputStr = "hello crifan, nihao abdgg";
-# replacedStr = re.sub(r"hello (\w+), nihao", "\g<1>", inputStr); #\g<1> group 1
-# print "replacedStr=",replacedStr; #crifan  
-# #output replacedStr= crifan abdgg
+############################################################################## 
+inputStr = "hello crifan, nihao abdgg";
+replacedStr = re.sub(r"hello (\w+), nihao", "\g<1>", inputStr); #\g<1> group 1
+print "replacedStr=",replacedStr; #crifan  
+#output replacedStr= crifan abdgg
+############################################################################
+from urllib import urlopen
+import re
+
+webpage= urlopen('https://www.python.org/')
+text=webpage.read()
+m=re.search('<a href="([^"]+)" .*?>about</a>', text, re.IGNORECASE)
+print m.group()
+print m.group(1)
+
+#output <a href="/about/" title="" class="">About</a>
+#output /about/
+
