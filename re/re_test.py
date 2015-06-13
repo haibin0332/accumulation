@@ -48,7 +48,7 @@ print re.sub(r'oo', '-', text)
 emphasis_pat=r'\*([^\*]+)\*'
 #<em>\1</em> is the important part makes re.sub different from replace function
 #re.sub(pattern, repl, string/text) finding all the matched pattern in string and replace with repl
-#ÔÚreplÖĞÒÔ\nĞÎÊ½³öÏÖµÄÈÎºÎ×ªÒåĞòÁĞ¶¼»á±»Ä£Ê½ÖĞÓë×énÆ¥ÅäµÄ×Ö·û´®Ìæ»»µô
+#åœ¨replä¸­ä»¥\nå½¢å¼å‡ºç°çš„ä»»ä½•è½¬ä¹‰åºåˆ—éƒ½ä¼šè¢«æ¨¡å¼ä¸­ä¸ç»„nåŒ¹é…çš„å­—ç¬¦ä¸²æ›¿æ¢æ‰
 inputStr='hello 111 world 111'
 replacedStr=inputStr.replace('111', '222')
 print replacedStr
@@ -56,6 +56,13 @@ print replacedStr
 print re.sub(emphasis_pat, r'<em>\1</em>', 'hello, *world*!')
 #finding pattern emphasis_pat, replace with r'<em>\1</em>'  \1 means group 1
 #output hello, <em>world</em>!
+#>>> pat=r'\*([^\*]+)\*'
+#>>> print re.search(pat, 'hello, *world*!').group()
+#*world*
+#>>> print re.search(pat, 'hello, *world*!').group(1)
+#world
+#>>> print re.search(pat, 'hello, *world*!').group(0)
+#*world*
 #greedy
 emphasis_pat=r'\*(.+)\*' 
 print re.sub(emphasis_pat, r'<em>\1</em>', '*This* is *example*!')
@@ -101,7 +108,7 @@ replacedStr=re.sub('\d+', '222', inputStr)
 print replacedStr
 ################################################
 
-# ÕÒµ½²¢°ÑÕû¸öĞÎÈçpatternµÄ×Ö·û´®ÓÃcrifanliÌæ»»µô
+# æ‰¾åˆ°å¹¶æŠŠæ•´ä¸ªå½¢å¦‚patternçš„å­—ç¬¦ä¸²ç”¨crifanliæ›¿æ¢æ‰
 inputStr = 'hello crifan, nihao adfg'
 replacedStr = re.sub(r'hello (\w+), nihao', 'crifanli', inputStr);
 print "replacedStr={}".format(replacedStr)
