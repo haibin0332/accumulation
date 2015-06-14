@@ -15,6 +15,10 @@ python logistic regression
 
 http://blog.csdn.net/zouxy09/article/details/20319673
 
+SVM tutorial
+
+http://blog.csdn.net/v_july_v/article/details/7624837
+
 
 Everyone would be an DM/ML expert
 
