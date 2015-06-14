@@ -19,6 +19,8 @@ SVM tutorial
 
 http://blog.csdn.net/v_july_v/article/details/7624837
 
+http://blog.csdn.net/abcjennifer/article/details/7849812
+
 
 Everyone would be an DM/ML expert
 
