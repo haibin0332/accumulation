@@ -1,0 +1,28 @@
+from matplotlib import pyplot as plt
+
+1. 
+>>> import platform
+>>> platform.architecture()
+('32bit', 'WindowsPE')
+
+matplotlib 32 bit
+
+http://matplotlib.org/downloads.html
+
+python register.py
+
+2. download six.py
+
+paste to (C:\Python27\Lib)
+
+3. raise ImportError("matplotlib requires dateutil")
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-dateutil
+
+pip install ...whl
+
+4. raise ImportError("matplotlib requires pyparsing")
+
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyparsing
+
+pip install ...whl
