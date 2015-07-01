@@ -1,5 +1,7 @@
 #important notes
 
+http://scikit-learn.org/stable/
+
 python scipy numpy quick look
 
 http://docs.scipy.org/doc/numpy/genindex.html
@@ -31,6 +33,3 @@ ML code analysis
 
 http://www.zyh1690.org/the-machine-learning-based-on-machine-learning-2/
 
-Everyone would be an DM/ML expert
-
-http://scikit-learn.org/stable/
