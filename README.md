@@ -1,6 +1,6 @@
 #important notes
 
-python scipy quick look
+python scipy numpy quick look
 
 http://docs.scipy.org/doc/numpy/genindex.html
 
