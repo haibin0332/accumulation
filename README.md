@@ -1,5 +1,7 @@
 #important notes
 
+DM/ML traning 
+
 http://scikit-learn.org/stable/
 
 python scipy numpy quick look
