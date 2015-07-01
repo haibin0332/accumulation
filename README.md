@@ -4,6 +4,8 @@ python scipy numpy quick look
 
 http://docs.scipy.org/doc/numpy/genindex.html
 
+http://sebug.net/paper/books/scipydoc/numpy_intro.html
+
 python re
 
 http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
