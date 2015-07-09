@@ -1,11 +1,3 @@
-#################################################
-# logRegression: Logistic Regression
-# Author : zouxy
-# Date   : 2014-03-02
-# HomePage : http://blog.csdn.net/zouxy09
-# Email  : zouxy09@qq.com
-#################################################
-
 from numpy import *
 import matplotlib.pyplot as plt
 import time
