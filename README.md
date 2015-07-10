@@ -31,7 +31,12 @@ http://blog.csdn.net/v_july_v/article/details/7624837
 
 http://blog.csdn.net/abcjennifer/article/details/7849812
 
+HMM
+
+http://www.52nlp.cn/category/hidden-markov-model/page/4
+
 ML code analysis
 
 http://www.zyh1690.org/the-machine-learning-based-on-machine-learning-2/
+
 
