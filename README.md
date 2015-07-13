@@ -1,6 +1,7 @@
 #important notes
 
-DM/ML traning 
+1) tools
+DM/ML training 
 
 http://scikit-learn.org/stable/
 
@@ -10,6 +11,7 @@ http://docs.scipy.org/doc/numpy/genindex.html
 
 http://sebug.net/paper/books/scipydoc/numpy_intro.html
 
+2) code
 python re
 
 http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
@@ -38,6 +40,8 @@ http://www.52nlp.cn/category/hidden-markov-model/page/4
 ML code analysis
 
 http://www.zyh1690.org/the-machine-learning-based-on-machine-learning-2/
+
+3) NLP
 
 Stanford Chinese character parsing
 
