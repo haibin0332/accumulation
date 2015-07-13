@@ -43,4 +43,7 @@ Stanford Chinese character parsing
 
 http://blog.csdn.net/cuixianpeng/article/details/16864785
 
+Dependency relations
+
+http://wiki.opencog.org/w/Dependency_relations
 
