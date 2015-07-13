@@ -58,3 +58,5 @@ Dependency relations
 http://wiki.opencog.org/w/Dependency_relations
 
 http://www.xperseverance.net/blogs/2012/03/510/
+
+http://blog.csdn.net/v_july_v/article/details/41209515
