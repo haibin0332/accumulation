@@ -1,6 +1,7 @@
 #important notes
 
 1) tools
+
 DM/ML training 
 
 http://scikit-learn.org/stable/
@@ -12,6 +13,7 @@ http://docs.scipy.org/doc/numpy/genindex.html
 http://sebug.net/paper/books/scipydoc/numpy_intro.html
 
 2) code
+
 python re
 
 http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html
