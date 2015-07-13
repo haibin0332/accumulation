@@ -40,6 +40,7 @@ ML code analysis
 http://www.zyh1690.org/the-machine-learning-based-on-machine-learning-2/
 
 Stanford Chinese character parsing
+
 http://blog.csdn.net/cuixianpeng/article/details/16864785
 
 
