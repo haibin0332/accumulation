@@ -45,6 +45,10 @@ http://www.zyh1690.org/the-machine-learning-based-on-machine-learning-2/
 
 3) NLP
 
+LDA
+
+http://www.52nlp.cn/lda-math-lda-%E6%96%87%E6%9C%AC%E5%BB%BA%E6%A8%A1
+
 Stanford Chinese character parsing
 
 http://blog.csdn.net/cuixianpeng/article/details/16864785
