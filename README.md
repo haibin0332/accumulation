@@ -53,3 +53,4 @@ Dependency relations
 
 http://wiki.opencog.org/w/Dependency_relations
 
+http://www.xperseverance.net/blogs/2012/03/510/
