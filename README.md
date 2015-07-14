@@ -51,6 +51,8 @@ http://www.52nlp.cn/lda-math-lda-%E6%96%87%E6%9C%AC%E5%BB%BA%E6%A8%A1
 
 http://blog.csdn.net/v_july_v/article/details/41209515
 
+http://cos.name/2013/01/lda-math-beta-dirichlet/
+
 Stanford Chinese character parsing
 
 http://blog.csdn.net/cuixianpeng/article/details/16864785
