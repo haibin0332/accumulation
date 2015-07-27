@@ -53,6 +53,8 @@ http://blog.csdn.net/v_july_v/article/details/41209515
 
 http://cos.name/2013/01/lda-math-beta-dirichlet/
 
+http://blog.csdn.net/yangliuy/article/details/8302599
+
 Stanford Chinese character parsing
 
 http://blog.csdn.net/cuixianpeng/article/details/16864785
