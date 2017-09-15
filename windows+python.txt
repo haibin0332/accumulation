@@ -4,6 +4,13 @@ install python extension packages on windows
 
 e.g. import psycopg2
 
+error:unable to find vcvarsall.bat
+python setup.py install
+直接下载 
+http://landinghub.visualstudio.com/visual-cpp-build-tools
+
+
+
 1)download psycopy2
 
 http://initd.org/pub/software/psycopg/
